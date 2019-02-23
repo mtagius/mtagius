@@ -5,5 +5,6 @@
 "https://codepen.io/mtagius/pen/QxLaRa"
 "https://codepen.io/mtagius/pen/qKWgZB"
 "https://codepen.io/mtagius/pen/OEyweQ"
-"https://www.mtagius.com/"
-"http://localhost"
+"http://localhost/"
+"https://getbootstrap.com/docs/4.1/layout/grid/"
+"https://fontawesome.com/icons?d=gallery&q=document"
