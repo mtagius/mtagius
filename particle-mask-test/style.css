@@ -1,0 +1,40 @@
+canvas {
+    /*background-color: #f3f3f3;*/
+}
+
+#particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    mix-blend-mode: screen;
+    z-index: -1;
+    background-color: #f3f3f3;
+}
+
+#dots {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*mix-blend-mode: screen;*/
+    background-color: #f3f3f3;
+}
+
+#mainContainer {
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 70px 30px 50px 30px;
+    font-family: Helvetica, sans-serif;
+    font-size: 100px;
+}
+
+#backgroundTexture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#048eff, #a80000);
+    z-index: -2;
+}
