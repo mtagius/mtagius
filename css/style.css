@@ -1,5 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+a:link {
+	color:#2d2d2d;
+}
+a:visited {
+	color:#2d2d2d;
+}
+a:hover {
+	color:#2d2d2d;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:active {
+	color:#2d2d2d;
+}
+
+.particleBackground {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+#particles {
+    mix-blend-mode: screen;
+    background-color: #a9a9a9;
+}
+
+#dots {
+    mix-blend-mode: lighten;
+    background-color: #ececec;
+}
+
+#backgroundTexture {
+    background: linear-gradient(#048eff, #a80000);
+}
+
+#mainContainer {
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 100px 0px 0px 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.subContainer {
+    border-radius: 70px;
+    background-color: #f1f1f1e3;
+    padding: 40px 50px 50px 50px;
+    width: 70%;
+    left: 15%;
+    position: relative;
+    margin: 0px 0px 50px 0px;
+    color: #2d2d2d;
+}
+
+div.subContainer h1 {
+    color: #131313;
+}
+
 #headshot {
-    width: 300;
-    height:300;
     border-radius: 50%;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.social-media {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+div.social-media i {
+    font-size: 75px;
+    margin-top: 10px;
+    transition: all 0.1s ease-in-out;
+    margin-bottom: 10px;
+}
+div.social-media i:hover {
+    font-size: 80px;
+    margin-bottom: 0px;
 }

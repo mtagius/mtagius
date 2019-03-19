@@ -3,32 +3,91 @@
         <title>Matt Agius</title>
         <link rel="shortcut icon" type="image/gif" href="favicon.png">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
     </head>
     
     <body>
-        <h1>Matt Agius</h1>
 
-        <p>
-            I am a developer from North Carolina.  I love working on cool projects and building fun things!
-        </p>
-        <p>
-            I attend<span id="graduationTense">ed</span> the University of North Carolina at Charlotte and I <span id="graduationDate">graduated</span> 
-            with a Bachelor of Science degree in Computer Science with a Concentration in Cyber Security and a Minor in Bioinformatics and Genomics.
-        </p>
+        <div id="backgroundTexture" class="particleBackground">
+            <div id="particles" class="particleBackground"></div>
+            <div id="dots" class="particleBackground"></div>  
+        </div>
 
-        <img id="headshot" src="img/Headshot.png">
+        <div id="mainContainer">
 
-        <div>Mail To</div>
-        <div>Twitter</div>
-        <div>Github</div>
-        <div>Resume</div>
+            <div class="subContainer">
+
+                <div class="row">
+                    <div class="col-8">
+                        <h1>Matt Agius</h1>
+                        <p>
+                            I am a developer from North Carolina.  I love working on cool projects and building fun things!
+                        </p>
+                        <p>
+                            I attend<span id="graduationTense">ed</span> the University of North Carolina at Charlotte and I <span id="graduationDate">graduated</span> 
+                            with a Bachelor of Science degree in Computer Science with a Concentration in Cyber Security and a Minor in Bioinformatics and Genomics.
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <img id="headshot" src="img/Headshot.png" alt="Photo of Matt">
+                    </div>
+                </div>
+
+                
+                <div class="row social-media">
+                    <div class="col-3">
+                        <a href="mailto:mtagius@gmail.com" target="_blank">
+                            <div>Contact Me</div>
+                            <i class="far fa-envelope"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="col-3">
+                        <a href="https://twitter.com/mtagius_" target="_blank">
+                            <div>Twitter</div>
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="col-3">
+                        <a href="https://github.com/mtagius" target="_blank">
+                            <div>Github</div>
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="col-3">
+                        <a href="http://endlessdonuts.us" target="_blank">
+                            <div>Resume</div>
+                            <i class="far fa-file-alt"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="subContainer">
+                <h1>Sup nerds</h1>
+            </div>
+
+            <div class="subContainer">
+                <h1>I'm here to kick ass and chew bubble gum</h1>
+            </div>
+
+
+            <div class="subContainer">
+                <h1>and I'm all outta ass</h1>
+            </div>
+
+        </div>
 
 
         <!--Scripts are loaded last so that the page will display before they load-->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script type='text/javascript' src='js/jquery.particleground.min.js'></script>
         <script type="text/javascript" src="js/main.js"></script>
         <!--Google Analytics-->
         <script>
@@ -39,8 +98,7 @@
           
             ga('create', 'UA-50792400-2', 'auto');
             ga('send', 'pageview');
-          
-          </script>
+        </script>
           
     </body>
     <footer>
