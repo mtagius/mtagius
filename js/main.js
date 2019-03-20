@@ -8,7 +8,7 @@ $(document).ready(function() {
     $('#dots').particleground({
         dotColor: '#000000',
         lineColor: '#000000',
-        density: 80000,
+        density: 70000,
         minSpeedX: .1,
         maxSpeedX: .5,
         minSpeedY: .1,
@@ -21,7 +21,7 @@ $(document).ready(function() {
     $('#particles').particleground({
         dotColor: '#000000',
         lineColor: '#000000',
-        density: 10000,
+        density: 6000,
         minSpeedX: .1,
         maxSpeedX: .5,
         minSpeedY: .1,

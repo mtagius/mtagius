@@ -26,16 +26,22 @@ a:active {
 
 #particles {
     mix-blend-mode: screen;
-    background-color: #a9a9a9;
+    /*background-color: #a9a9a9;*/
+    background: linear-gradient(to bottom right, #96c0d0 40%, #05123f 100%);
 }
 
 #dots {
     mix-blend-mode: lighten;
-    background-color: #ececec;
+    background-color: #ffffff;
 }
 
 #backgroundTexture {
-    background: linear-gradient(#048eff, #a80000);
+    /*background: linear-gradient(#048eff, #a80000);*/
+    background: linear-gradient(#919191, #000000);
+}
+
+#gradientOverlay {
+    background: linear-gradient(to bottom right, #e0ffffd6 40%, #9ad8e6 100%);
 }
 
 #mainContainer {
@@ -51,7 +57,8 @@ a:active {
 
 .subContainer {
     border-radius: 70px;
-    background-color: #f1f1f1e3;
+    background-color: #ffffffba;
+    /*background: linear-gradient(#5db6ff5c, #b0474766);*/
     padding: 40px 50px 50px 50px;
     width: 70%;
     left: 15%;
@@ -74,6 +81,10 @@ div.subContainer h1 {
     margin-top: 30px;
     text-align: center;
     font-weight: bold;
+}
+
+.social-media div {
+    min-width: 100px;
 }
 
 div.social-media i {
