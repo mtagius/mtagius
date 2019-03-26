@@ -60,8 +60,8 @@ a:active {
     background-color: #ffffffba;
     /*background: linear-gradient(#5db6ff5c, #b0474766);*/
     padding: 40px 50px 50px 50px;
-    width: 70%;
-    left: 15%;
+    width: 60%;
+    left: 20%;
     position: relative;
     margin: 0px 0px 50px 0px;
     color: #2d2d2d;
@@ -96,4 +96,39 @@ div.social-media i {
 div.social-media i:hover {
     font-size: 80px;
     margin-bottom: 0px;
+}
+
+
+div.article a:link {
+    color:#0e869e;
+}
+div.article a:visited {
+	color:#0e869e;
+}
+div.article a:hover {
+	color:#0e869e;
+    cursor: pointer;
+    text-decoration: underline;
+}
+div.article a:active {
+	color:#0e869e;;
+}
+
+div.article h1 {
+    padding: 0px 0px 10px 0px;
+}
+
+div.article {
+    padding: 30px 50px 30px 50px;
+}
+
+div.article img {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.article-text {
+    max-width: 50%;
 }

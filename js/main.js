@@ -21,7 +21,7 @@ $(document).ready(function() {
     $('#particles').particleground({
         dotColor: '#000000',
         lineColor: '#000000',
-        density: 6000,
+        density: 7000,
         minSpeedX: .1,
         maxSpeedX: .5,
         minSpeedY: .1,
