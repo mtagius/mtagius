@@ -1,23 +1,11 @@
 {
     "articleArray": [
         {
-            "title": "Cowboy",
-            "paragraphs": ["Some Text.",
-            "More Text",
-            "<a href='https://endlessdonuts.us' target='_blank'>This</a> is an example of a link."],
-            "image": "https://cdn.shopify.com/s/files/1/1363/6517/products/a2020g_ca2dc997-27d2-4992-953a-1dc5a2686ed3_580x.jpg?v=1476955614"
-        },
-        {
             "title": "The Cargo Hold",
             "paragraphs": ["The Cargo Hold is a short documentary I made in high school about the Green Hope programming classroom and the influential teacher there, Mr. Gaw.",
-            "You can watch the whole documentary <a href='https://www.youtube.com/watch?v=ZkiDTN_9wGc' target='_blank'>here.</a>"],
-            "image": "./img/The_Cargo_Hold.png"
-        },
-        {
-            "title": "The Cargo Hold",
-            "paragraphs": ["The Cargo Hold is a short documentary I made in high school about the Green Hope programming classroom and the influential teacher there, Mr. Gaw.",
-            "You can watch the whole documentary <a href='https://google.com' target='_blank'>here.</a>"],
-            "image": "./img/The_Cargo_Hold.png"
+            "You can watch the whole documentary <a>here.</a>"],
+            "image": "./img/The_Cargo_Hold.png",
+            "links": ["https://www.youtube.com/watch?v=ZkiDTN_9wGc"]
         }
     ]
 }
