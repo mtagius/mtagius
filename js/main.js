@@ -1,9 +1,14 @@
 
-var articles;
+var articles = null;
 var articleIndex = 0;
 
 function generateArticle() {
-    //add code to wait if articles is null
+    if(articles == null) {
+        setTimeout(function() {
+            generateArticle();
+        }, 1000);
+        return false;
+    }
 
     var article = $($(".subContainer").get().reverse()[0]);
     article.find("h1").html(articles.articleArray[articleIndex].title);
@@ -14,12 +19,7 @@ function generateArticle() {
     var linksIndex = 0;
     article.find('a').each(function() {
         if(articles.articleArray[articleIndex].links != undefined && linksIndex < articles.articleArray[articleIndex].links.length) {
-            //$(this)[0].href = articles.articleArray[articleIndex].links[linksIndex];
-            //article.append("<a href='" + articles.articleArray[articleIndex].links[linksIndex] + "' target='_blank'>Love</a>")
-            console.log(articles.articleArray[articleIndex].links[linksIndex]);
             $(this).attr("href", articles.articleArray[articleIndex].links[linksIndex]);
-            //$(this).prop("href", articles.articleArray[articleIndex].links[linksIndex]);
-            //$(this).attr("href", "https://www.youtube.com/watch?v=K4NRJoCNHIs");
             $(this).attr("target","_blank");
             linksIndex += 1;
         }
@@ -27,9 +27,9 @@ function generateArticle() {
     article.append("<img src='" + articles.articleArray[articleIndex].image + "'>");
 
     articleIndex++;
-    //if there are no articles left the last 'a' element is removed which stops the jscroll from adding more articles
+    //if there are no articles left the last 'a' has its href removed which stops the jscroll from adding more articles
     if(articleIndex >= articles.articleArray.length) {
-        $($("a").get().reverse()[0]).remove();
+        $($("a").get().reverse()[0]).attr("href", "");
         $("#mainContainer").append("<div class='copyright'>Copyright \u00A9 Matt Agius " + new Date().getFullYear() + "</div>")
     }
 }
