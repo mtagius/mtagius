@@ -1,3 +1,24 @@
+
+var articles;
+var articleIndex = 0;
+
+function generateArticle() {
+    var article = $($(".subContainer").get().reverse()[0]);
+    article.find("h1").html(articles.articleArray[articleIndex].title);
+    var paragraphs = articles.articleArray[articleIndex].paragraphs;
+    for(i = 0; i < paragraphs.length; i++) {
+        article.append("<p>" + paragraphs[i] + "</p>");
+    }
+    article.append("<img src='" + articles.articleArray[articleIndex].image + "'>");
+
+    articleIndex++;
+    //if there are no articles left the last 'a' element is removed which stops the jscroll from adding more articles
+    if(articleIndex >= articles.articleArray.length) {
+        $($("a").get().reverse()[0]).remove();
+        $("#mainContainer").append("<div class='copyright'>Copyright \u00A9 Matt Agius " + new Date().getFullYear() + "</div>")
+    }
+}
+
 $(document).ready(function() {
     var graduationDate = new Date('May 11, 2019');
     if(Date.now() < graduationDate) {
@@ -29,5 +50,14 @@ $(document).ready(function() {
         particleRadius: 15,
         parallaxMultiplier: 15,
         proximity: 100
+    });
+
+    $.getJSON("data/articles.json?", function(json) {
+        articles = json;
+    });
+
+    $('#mainContainer').jscroll({
+        padding: 30,
+        loadingHtml: ''
     });
 });

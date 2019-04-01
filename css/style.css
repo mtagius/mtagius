@@ -132,6 +132,14 @@ div.article img {
     min-width: 100%;
 }
 
+.copyright {
+    color: #214040;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    margin: 30px;
+}
+
 @media only screen and (min-width: 1450px) {
     .subContainer {
         width: 40%;
