@@ -1,6 +1,67 @@
 {
     "articleArray": [
         {
+            "title": "Makeda Run",
+            "paragraphs": ["I released a mobile game on Android and iOS!  The game is called Makeda Run and it's a free endless runner that you can download and play now!",
+            "Check out the game on <a>iOS</a> and <a>Android.</a>"],
+            "image": "./img/makeda-run.png",
+            "links": ["https://itunes.apple.com/us/app/makeda-run/id1447580656?mt=8", "https://play.google.com/store/apps/details?id=com.mtagius.makedaRun"]
+        },
+        {
+            "title": "Endless Donuts",
+            "paragraphs": ["I had a lot of fun making a website that generates an endless number of donuts.",
+            "Check out the repo <a>here</a> and see the website for yourself <a>here.</a>"],
+            "image": "./img/endless-donuts.png",
+            "links": ["https://github.com/mtagius/endlessdonuts", "https://endlessdonuts.us/"]
+        },
+        {
+            "title": "Hang the DJ",
+            "paragraphs": ["I made a fun web app that imitates the \"tap to reveal\" feature the computer used in the episode of Black Mirror called \"Hang the DJ\".",
+            "Check out the repo <a>here</a> and try out the app <a>here.</a>"],
+            "image": "./img/hang-the-dj.png",
+            "links": ["https://github.com/mtagius/hang-the-dj", "http://mtagius.com/hang-the-dj/?name=Obama&photo=https://pbs.twimg.com/profile_images/822547732376207360/5g0FC8XX_400x400.jpg&expiration=0,0,0,12,0,0"]
+        },
+        {
+            "title": "Cryptocurrency Position Tracker",
+            "paragraphs": ["I made a web app that lets you enter a position of a cryptocurrency and then will show the change in value.  It's useful for tracking crypto trades.",
+            "Check out the repo <a>here.</a>"],
+            "image": "./img/cryptocurrency-position-tracker-ad.png",
+            "links": ["https://github.com/mtagius/cryptocurrency-position-tracker"]
+        },
+        {
+            "title": "Magspoof",
+            "paragraphs": ["I made my own version of Samy Kamkar's <a>Magspoof</a>.  It's a small device that can be used to emulate the action of swiping a credit card.",
+            "Check out the repo <a>here.</a>  Included in the repo are the slides I used during my talks at 49th SD about Magspoof."],
+            "image": "./img/IMG_20180410_091709161_HDR.jpg",
+            "links": ["https://samy.pl/magspoof/", "https://github.com/mtagius/magspoof-49th-SD"]
+        },
+        {
+            "title": "Online Code Words",
+            "paragraphs": ["I made an online version of the popular board game \"Code Names.\"  It uses simple PHP to run the backend and offers realtime updates to the players.",
+            "Check it out <a>here.</a>"],
+            "image": "./img/code-words.png",
+            "links": ["https://www.mtagius.com/CodeWords/"]
+        },
+        {
+            "title": "Where Should I Go?",
+            "paragraphs": ["For HackNC 2017 my partner, Makeda Phoenix, and I made a web app that uses the Google Maps API to randomly pick somewhere to go for when you want to try something new.",
+            "Check it out <a>here.</a>"],
+            "image": "./img/where-should-i-go.png",
+            "links": ["http://whereshouldigo.me/"]
+        },
+        {
+            "title": "Wearable Smart Devices in Fashion",
+            "paragraphs": ["As a part of the Statement Making Fashion Show at UNCC, a fashion show dedicated to wearable technology, I worked on a piece with my partner, Makeda Phoenix.  We made a skirt that used a Raspberry Pi to query an API that gave us real time information about lightning strikes in the area.  We then used LEDs to light up the skirt when a lightning strike was detected."],
+            "image": "./img/IMG_20170419_213656138.jpg",
+            "links": [""]
+        },
+        {
+            "title": "Arduino LED Clock",
+            "paragraphs": ["I made a custom clock using an Arduino and some RGB LEDs.  You can check out the full write up <a>here.</a>"],
+            "image": "./img/clock.jpg",
+            "links": ["https://imgur.com/gallery/OVMAv"]
+        },
+        {
             "title": "The Cargo Hold",
             "paragraphs": ["The Cargo Hold is a short documentary I made in high school about the Green Hope programming classroom and the influential teacher there, Mr. Gaw.",
             "You can watch the whole documentary <a>here.</a>"],

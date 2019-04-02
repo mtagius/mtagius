@@ -3,14 +3,18 @@ var articles = null;
 var articleIndex = 0;
 
 function generateArticle() {
-    if(articles == null) {
-        setTimeout(function() {
-            generateArticle();
-        }, 1000);
-        return false;
-    }
 
-    var article = $($(".subContainer").get().reverse()[0]);
+    var article;
+
+    //looks for the subContainer that has not been populated yet.  
+    $($(".subContainer").get().reverse()).each(function() {
+        if($(this).find("h1").html() == "") {
+            article = $(this);
+        } else {
+            return false;
+        }
+    });
+
     article.find("h1").html(articles.articleArray[articleIndex].title);
     var paragraphs = articles.articleArray[articleIndex].paragraphs;
     for(i = 0; i < paragraphs.length; i++) {
@@ -27,9 +31,7 @@ function generateArticle() {
     article.append("<img src='" + articles.articleArray[articleIndex].image + "'>");
 
     articleIndex++;
-    //if there are no articles left the last 'a' has its href removed which stops the jscroll from adding more articles
     if(articleIndex >= articles.articleArray.length) {
-        $($("a").get().reverse()[0]).attr("href", "");
         $("#mainContainer").append("<div class='copyright'>Copyright \u00A9 Matt Agius " + new Date().getFullYear() + "</div>")
     }
 }
@@ -40,6 +42,15 @@ $(document).ready(function() {
         $("#graduationDate").html("will graduate in May of 2019");
         $("#graduationTense").html("");
     }
+
+    $.getJSON("data/articles.json?", function(json) {
+        articles = json;
+        $('#mainContainer').jscroll({
+            padding: 30,
+            loadingHtml: '',
+            autoTriggerUntil: articles.articleArray.length
+        });
+    });
 
     $('#dots').particleground({
         dotColor: '#000000',
@@ -65,14 +76,5 @@ $(document).ready(function() {
         particleRadius: 15,
         parallaxMultiplier: 15,
         proximity: 100
-    });
-
-    $.getJSON("data/articles.json?", function(json) {
-        articles = json;
-    });
-
-    $('#mainContainer').jscroll({
-        padding: 30,
-        loadingHtml: ''
     });
 });
