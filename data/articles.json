@@ -11,7 +11,7 @@
             "title": "Endless Donuts",
             "paragraphs": ["I had a lot of fun making a website that generates an endless number of donuts.",
             "Check out the repo <a>here</a> and see the website for yourself <a>here.</a>"],
-            "image": "./img/endless-donuts.png",
+            "image": "./img/endless-donuts.PNG",
             "links": ["https://github.com/mtagius/endlessdonuts", "https://endlessdonuts.us/"]
         },
         {
@@ -39,14 +39,14 @@
             "title": "Online Code Words",
             "paragraphs": ["I made an online version of the popular board game \"Code Names.\"  It uses simple PHP to run the backend and offers realtime updates to the players.",
             "Check it out <a>here.</a>"],
-            "image": "./img/code-words.png",
+            "image": "./img/code-words.PNG",
             "links": ["https://www.mtagius.com/CodeWords/"]
         },
         {
             "title": "Where Should I Go?",
             "paragraphs": ["For HackNC 2017 my partner, Makeda Phoenix, and I made a web app that uses the Google Maps API to randomly pick somewhere to go for when you want to try something new.",
             "Check it out <a>here.</a>"],
-            "image": "./img/where-should-i-go.png",
+            "image": "./img/where-should-i-go.PNG",
             "links": ["http://whereshouldigo.me/"]
         },
         {
