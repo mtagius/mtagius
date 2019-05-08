@@ -1,6 +1,18 @@
 {
     "articleArray": [
         {
+            "title": "Carolina Con Badge",
+            "paragraphs": ["Mike and I worked together to produce the hardware badges for the Cyber Security convention, <a>Carolina Con.</a>  This processes involved designing the circuit, creating a BOM, creating the art and look of the badge PCB, and finally writing code to control the animations of the LEDs.  Designing PCBs is fun and I can't wait to work on the badge for next year!  Check out the repo for the project <a>here.</a> "],
+            "image": "./img/cc-badge.jpg",
+            "links": ["http://www.carolinacon.org/", "https://github.com/49thSecurityDivision/CC-15-Badges"]
+        },
+        {
+            "title": "Computer Vision Shirt",
+            "paragraphs": ["I worked with Gabel Brown to produce a wearable shirt that would change colors based on the emotion of the person standing directly in from the of shirt.  This worked by applying <a>this computer vision model</a> to a live webcam feed a Raspberry Pi captured.  After the computations had been completed on a nearby computer a signal was sent to an Arduino to change the color of the LEDs in the shirt.  This was all created as a piece for the Statement Making Fashion Show at UNCC, a fashion show dedicated to wearable technology.  The repo for our code can be found <a>here.</a>"],
+            "image": "./img/computer-vision-shirt.jpg",
+            "links": ["https://github.com/petercunha/Emotion", "https://github.com/C1ARKGABLE/Emotion"]
+        },
+        {
             "title": "Makeda Run",
             "paragraphs": ["I released a mobile game on Android and iOS!  The game is called Makeda Run and it's a free endless runner that you can download and play now!",
             "Check out the game on <a>iOS</a> and <a>Android.</a>"],
