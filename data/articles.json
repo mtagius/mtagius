@@ -1,13 +1,19 @@
 {
     "articleArray": [
         {
+            "title": "Carolina Con 16 Badge",
+            "paragraphs": ["<a>Carolina Con 16</a> had to be postponed, but before we had to make the decision to postpone I had already designed, tested, and ordered the parts for this year's badges. Katie Dorn came up with the initial octopus art and then I designed the PCB around that. Anyone who gets this badge can get some practice soldering SMD components like the red LEDs that light up the eyes from behind.  I'm thrilled with how this came out and Hackaday wrote <a>an article</a> about this badge."],
+            "image": "./img/cc-16-badge.JPEG",
+            "links": ["https://carolinacon.org/", "https://hackaday.com/2020/02/19/the-carolinacon-16-badge-slithers-into-life/"]
+        },
+        {
             "title": "Roomba Visualization",
             "paragraphs": ["I have been working on a project to track and draw the path of my roomba.  The results look pretty sweet!  Check out the repo for the project <a>here.</a>"],
             "image": "./img/Screenshot7.PNG",
             "links": ["https://github.com/mtagius/roomba-visualization"]
         },
         {
-            "title": "Carolina Con Badge",
+            "title": "Carolina Con 15 Badge",
             "paragraphs": ["Mike and I worked together to produce the hardware badges for the Cyber Security convention, <a>Carolina Con.</a>  This processes involved designing the circuit, creating a BOM, creating the art and look of the badge PCB, and finally writing code to control the animations of the LEDs.  Designing PCBs is fun and I can't wait to work on the badge for next year!  Check out the repo for the project <a>here.</a> "],
             "image": "./img/cc-badge.jpg",
             "links": ["http://www.carolinacon.org/", "https://github.com/49thSecurityDivision/CC-15-Badges"]
