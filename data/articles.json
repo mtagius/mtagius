@@ -1,6 +1,12 @@
 {
     "articleArray": [
         {
+            "title": "Desktop Game of Life using an 8x8 Matrix",
+            "paragraphs": ["I made a desktop version of Conway's Game of Life run on an Arduino Nano and display the grid on an 8x8 LED Matrix. To make the enclosure for the project I lasercut 1/8 inch basswood. Check out the repo <a>here</a>."],
+            "image": "./img/conway-front.png",
+            "links": ["https://github.com/mtagius/game-of-life-8x8-arduino-matrix"]
+        },
+        {
             "title": "Carolina Con 16 Badge",
             "paragraphs": ["<a>Carolina Con 16</a> had to be postponed, but before we had to make the decision to postpone I had already designed, tested, and ordered the parts for this year's badges. Katie Dorn came up with the initial octopus art and then I designed the PCB around that. Anyone who gets this badge can get some practice soldering SMD components like the red LEDs that light up the eyes from behind.  I'm thrilled with how this came out and Hackaday wrote <a>an article</a> about this badge."],
             "image": "./img/cc-16-badge.JPEG",
