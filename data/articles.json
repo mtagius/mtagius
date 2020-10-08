@@ -1,102 +1,182 @@
 {
     "articleArray": [
         {
+            "title": "Pwnagotchi Tools: Automated Wifi Password Cracking",
+            "paragraphs": [
+                "I was very excited about the <a>pwnagotchi project</a> when it first came out. It harnessed a known vulnerability in WPA/WPA2 wifi security and automated it in the form of a cute tamagotchi. When I ran the project myself I saw that after the pwnagotchi actually collected the wifi handshakes the wifi password cracking was entirely manual. I took a deep dive into password security and password cracking to develop <a>pwnagotchi tools</a>, a series of scripts that automate wifi password cracking. I researched and created a list of attacks targeted specifically at WPA/WPA2 wifi passwords, a long neglected target in traditional password cracking.",
+                "I'm happy to have learned so much about password security during this project and I was happy to see Hackaday write a great <a>article</a> about the tools I created for this project."
+            ],
+            "image": "./img/pwnagotchi.PNG",
+            "links": [
+                "https://pwnagotchi.ai/",
+                "https://github.com/mtagius/pwnagotchi-tools",
+                "https://hackaday.com/2020/09/30/automated-tools-for-wifi-cracking/"
+            ]
+        },
+        {
             "title": "Desktop Game of Life using an 8x8 Matrix",
-            "paragraphs": ["I made a desktop version of Conway's Game of Life run on an Arduino Nano and display the grid on an 8x8 LED Matrix. To make the enclosure for the project I lasercut 1/8 inch basswood. Check out the repo <a>here</a>."],
+            "paragraphs": [
+                "I made a desktop version of Conway's Game of Life run on an Arduino Nano and display the grid on an 8x8 LED Matrix. To make the enclosure for the project I lasercut 1/8 inch basswood. Check out the repo <a>here</a>."
+            ],
             "image": "./img/conway-front.png",
-            "links": ["https://github.com/mtagius/game-of-life-8x8-arduino-matrix"]
+            "links": [
+                "https://github.com/mtagius/game-of-life-8x8-arduino-matrix"
+            ]
         },
         {
             "title": "Carolina Con 16 Badge",
-            "paragraphs": ["<a>Carolina Con 16</a> had to be postponed, but before we had to make the decision to postpone I had already designed, tested, and ordered the parts for this year's badges. Katie Dorn came up with the initial octopus art and then I designed the PCB around that. Anyone who gets this badge can get some practice soldering SMD components like the red LEDs that light up the eyes from behind.  I'm thrilled with how this came out and Hackaday wrote <a>an article</a> about this badge."],
+            "paragraphs": [
+                "<a>Carolina Con 16</a> had to be postponed, but before we had to make the decision to postpone I had already designed, tested, and ordered the parts for this year's badges. Katie Dorn came up with the initial octopus art and then I designed the PCB around that. Anyone who gets this badge can get some practice soldering SMD components like the red LEDs that light up the eyes from behind.  I'm thrilled with how this came out and Hackaday wrote <a>an article</a> about this badge."
+            ],
             "image": "./img/cc-16-badge.JPEG",
-            "links": ["https://carolinacon.org/", "https://hackaday.com/2020/02/19/the-carolinacon-16-badge-slithers-into-life/"]
+            "links": [
+                "https://carolinacon.org/",
+                "https://hackaday.com/2020/02/19/the-carolinacon-16-badge-slithers-into-life/"
+            ]
         },
         {
             "title": "Roomba Visualization",
-            "paragraphs": ["I have been working on a project to track and draw the path of my roomba.  The results look pretty sweet!  Check out the repo for the project <a>here.</a>"],
+            "paragraphs": [
+                "I have been working on a project to track and draw the path of my roomba.  The results look pretty sweet!  Check out the repo for the project <a>here.</a>"
+            ],
             "image": "./img/Screenshot7.PNG",
-            "links": ["https://github.com/mtagius/roomba-visualization"]
+            "links": [
+                "https://github.com/mtagius/roomba-visualization"
+            ]
         },
         {
             "title": "Carolina Con 15 Badge",
-            "paragraphs": ["Mike and I worked together to produce the hardware badges for the Cyber Security convention, <a>Carolina Con.</a>  This processes involved designing the circuit, creating a BOM, creating the art and look of the badge PCB, and finally writing code to control the animations of the LEDs.  Designing PCBs is fun and I can't wait to work on the badge for next year!  Check out the repo for the project <a>here.</a> "],
+            "paragraphs": [
+                "Mike and I worked together to produce the hardware badges for the Cyber Security convention, <a>Carolina Con.</a>  This processes involved designing the circuit, creating a BOM, creating the art and look of the badge PCB, and finally writing code to control the animations of the LEDs.  Designing PCBs is fun and I can't wait to work on the badge for next year!  Check out the repo for the project <a>here.</a> "
+            ],
             "image": "./img/cc-badge.jpg",
-            "links": ["http://www.carolinacon.org/", "https://github.com/49thSecurityDivision/CC-15-Badges"]
+            "links": [
+                "http://www.carolinacon.org/",
+                "https://github.com/49thSecurityDivision/CC-15-Badges"
+            ]
         },
         {
             "title": "Computer Vision Shirt",
-            "paragraphs": ["I worked with Gabel Brown to produce a wearable shirt that would change colors based on the emotion of the person standing directly in from the of shirt.  This worked by applying <a>this computer vision model</a> to a live webcam feed a Raspberry Pi captured.  After the computations had been completed on a nearby computer a signal was sent to an Arduino to change the color of the LEDs in the shirt.  This was all created as a piece for the Statement Making Fashion Show at UNCC, a fashion show dedicated to wearable technology.  The repo for our code can be found <a>here.</a>"],
+            "paragraphs": [
+                "I worked with Gabel Brown to produce a wearable shirt that would change colors based on the emotion of the person standing directly in from the of shirt.  This worked by applying <a>this computer vision model</a> to a live webcam feed a Raspberry Pi captured.  After the computations had been completed on a nearby computer a signal was sent to an Arduino to change the color of the LEDs in the shirt.  This was all created as a piece for the Statement Making Fashion Show at UNCC, a fashion show dedicated to wearable technology.  The repo for our code can be found <a>here.</a>"
+            ],
             "image": "./img/computer-vision-shirt.jpg",
-            "links": ["https://github.com/petercunha/Emotion", "https://github.com/C1ARKGABLE/Emotion"]
+            "links": [
+                "https://github.com/petercunha/Emotion",
+                "https://github.com/C1ARKGABLE/Emotion"
+            ]
         },
         {
             "title": "Makeda Run",
-            "paragraphs": ["I released a mobile game on Android and iOS!  The game is called Makeda Run and it's a free endless runner that you can download and play now!",
-            "Check out the game on <a>iOS</a> and <a>Android.</a>"],
+            "paragraphs": [
+                "I released a mobile game on Android and iOS!  The game is called Makeda Run and it's a free endless runner that you can download and play now!",
+                "Check out the game on <a>iOS</a> and <a>Android.</a>"
+            ],
             "image": "./img/makeda-run.png",
-            "links": ["https://itunes.apple.com/us/app/makeda-run/id1447580656?mt=8", "https://play.google.com/store/apps/details?id=com.mtagius.makedaRun"]
+            "links": [
+                "https://itunes.apple.com/us/app/makeda-run/id1447580656?mt=8",
+                "https://play.google.com/store/apps/details?id=com.mtagius.makedaRun"
+            ]
         },
         {
             "title": "Endless Donuts",
-            "paragraphs": ["I had a lot of fun making a website that generates an endless number of donuts.",
-            "Check out the repo <a>here</a> and see the website for yourself <a>here.</a>"],
+            "paragraphs": [
+                "I had a lot of fun making a website that generates an endless number of donuts.",
+                "Check out the repo <a>here</a> and see the website for yourself <a>here.</a>"
+            ],
             "image": "./img/endless-donuts.PNG",
-            "links": ["https://github.com/mtagius/endlessdonuts", "https://endlessdonuts.us/"]
+            "links": [
+                "https://github.com/mtagius/endlessdonuts",
+                "https://endlessdonuts.us/"
+            ]
         },
         {
             "title": "Hang the DJ",
-            "paragraphs": ["I made a fun web app that imitates the \"tap to reveal\" feature the computer used in the episode of Black Mirror called \"Hang the DJ\".",
-            "Check out the repo <a>here</a> and try out the app <a>here.</a>"],
+            "paragraphs": [
+                "I made a fun web app that imitates the \"tap to reveal\" feature the computer used in the episode of Black Mirror called \"Hang the DJ\".",
+                "Check out the repo <a>here</a> and try out the app <a>here.</a>"
+            ],
             "image": "./img/hang-the-dj.png",
-            "links": ["https://github.com/mtagius/hang-the-dj", "http://mtagius.com/hang-the-dj/?name=Obama&photo=https://pbs.twimg.com/profile_images/822547732376207360/5g0FC8XX_400x400.jpg&expiration=0,0,0,12,0,0"]
+            "links": [
+                "https://github.com/mtagius/hang-the-dj",
+                "http://mtagius.com/hang-the-dj/?name=Obama&photo=https://pbs.twimg.com/profile_images/822547732376207360/5g0FC8XX_400x400.jpg&expiration=0,0,0,12,0,0"
+            ]
         },
         {
             "title": "Cryptocurrency Position Tracker",
-            "paragraphs": ["I made a web app that lets you enter a position of a cryptocurrency and then will show the change in value.  It's useful for tracking crypto trades.",
-            "Check out the repo <a>here.</a>"],
+            "paragraphs": [
+                "I made a web app that lets you enter a position of a cryptocurrency and then will show the change in value.  It's useful for tracking crypto trades.",
+                "Check out the repo <a>here.</a>"
+            ],
             "image": "./img/cryptocurrency-position-tracker-ad.png",
-            "links": ["https://github.com/mtagius/cryptocurrency-position-tracker"]
+            "links": [
+                "https://github.com/mtagius/cryptocurrency-position-tracker"
+            ]
         },
         {
             "title": "Magspoof",
-            "paragraphs": ["I made my own version of Samy Kamkar's <a>Magspoof</a>.  It's a small device that can be used to emulate the action of swiping a credit card.",
-            "Check out the repo <a>here.</a>  Included in the repo are the slides I used during my talks at 49th SD about Magspoof."],
+            "paragraphs": [
+                "I made my own version of Samy Kamkar's <a>Magspoof</a>.  It's a small device that can be used to emulate the action of swiping a credit card.",
+                "Check out the repo <a>here.</a>  Included in the repo are the slides I used during my talks at 49th SD about Magspoof."
+            ],
             "image": "./img/IMG_20180410_091709161_HDR.jpg",
-            "links": ["https://samy.pl/magspoof/", "https://github.com/mtagius/magspoof-49th-SD"]
+            "links": [
+                "https://samy.pl/magspoof/",
+                "https://github.com/mtagius/magspoof-49th-SD"
+            ]
         },
         {
             "title": "Online Code Words",
-            "paragraphs": ["I made an online version of the popular board game \"Code Names.\"  It uses simple PHP to run the backend and offers realtime updates to the players.",
-            "Check it out <a>here.</a>"],
+            "paragraphs": [
+                "I made an online version of the popular board game \"Code Names.\"  It uses simple PHP to run the backend and offers realtime updates to the players.",
+                "Check it out <a>here.</a>"
+            ],
             "image": "./img/code-words.PNG",
-            "links": ["https://www.mtagius.com/CodeWords/"]
+            "links": [
+                "https://www.mtagius.com/CodeWords/"
+            ]
         },
         {
             "title": "Where Should I Go?",
-            "paragraphs": ["For HackNC 2017 my partner, Makeda Phoenix, and I made a web app that uses the Google Maps API to randomly pick somewhere to go for when you want to try something new.",
-            "Check it out <a>here.</a>"],
+            "paragraphs": [
+                "For HackNC 2017 my partner, Makeda Phoenix, and I made a web app that uses the Google Maps API to randomly pick somewhere to go for when you want to try something new.",
+                "Check it out <a>here.</a>"
+            ],
             "image": "./img/where-should-i-go.PNG",
-            "links": ["http://whereshouldigo.me/"]
+            "links": [
+                "http://whereshouldigo.me/"
+            ]
         },
         {
             "title": "Wearable Smart Devices in Fashion",
-            "paragraphs": ["As a part of the Statement Making Fashion Show at UNCC, a fashion show dedicated to wearable technology, I worked on a piece with my partner, Makeda Phoenix.  We made a skirt that used a Raspberry Pi to query an API that gave us real time information about lightning strikes in the area.  We then used LEDs to light up the skirt when a lightning strike was detected."],
+            "paragraphs": [
+                "As a part of the Statement Making Fashion Show at UNCC, a fashion show dedicated to wearable technology, I worked on a piece with my partner, Makeda Phoenix.  We made a skirt that used a Raspberry Pi to query an API that gave us real time information about lightning strikes in the area.  We then used LEDs to light up the skirt when a lightning strike was detected."
+            ],
             "image": "./img/IMG_20170419_213656138.jpg",
-            "links": [""]
+            "links": [
+                ""
+            ]
         },
         {
             "title": "Arduino LED Clock",
-            "paragraphs": ["I made a custom clock using an Arduino and some RGB LEDs.  You can check out the full write up <a>here.</a>"],
+            "paragraphs": [
+                "I made a custom clock using an Arduino and some RGB LEDs.  You can check out the full write up <a>here.</a>"
+            ],
             "image": "./img/clock.jpg",
-            "links": ["https://imgur.com/gallery/OVMAv"]
+            "links": [
+                "https://imgur.com/gallery/OVMAv"
+            ]
         },
         {
             "title": "The Cargo Hold",
-            "paragraphs": ["The Cargo Hold is a short documentary I made in high school about the Green Hope programming classroom and the influential teacher there, Mr. Gaw.",
-            "You can watch the whole documentary <a>here.</a>"],
+            "paragraphs": [
+                "The Cargo Hold is a short documentary I made in high school about the Green Hope programming classroom and the influential teacher there, Mr. Gaw.",
+                "You can watch the whole documentary <a>here.</a>"
+            ],
             "image": "./img/The_Cargo_Hold.png",
-            "links": ["https://www.youtube.com/watch?v=ZkiDTN_9wGc"]
+            "links": [
+                "https://www.youtube.com/watch?v=ZkiDTN_9wGc"
+            ]
         }
     ]
 }
