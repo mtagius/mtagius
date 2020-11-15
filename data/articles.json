@@ -1,6 +1,16 @@
 {
     "articleArray": [
         {
+            "title": "Bill Cipher Badge",
+            "paragraphs": [
+                "I made a #badgelife pin of everyone's favorite Eye of Providence, Bill Cipher! The repo with the Arduino code, the PCB Gerber files, and a list of components needed to build this can be found <a>here</a>."
+            ],
+            "image": "./img/badge-front.jpg",
+            "links": [
+                "https://github.com/mtagius/bill-cipher-badge"
+            ]
+        },
+        {
             "title": "Pwnagotchi Tools: Automated Wifi Password Cracking",
             "paragraphs": [
                 "I was very excited about the <a>pwnagotchi project</a> when it first came out. It harnessed a known vulnerability in WPA/WPA2 wifi security and automated it in the form of a cute tamagotchi. When I ran the project myself I saw that after the pwnagotchi actually collected the wifi handshakes the wifi password cracking was entirely manual. I took a deep dive into password security and password cracking to develop <a>pwnagotchi tools</a>, a series of scripts that automate wifi password cracking. I researched and created a list of attacks targeted specifically at WPA/WPA2 wifi passwords, a long neglected target in traditional password cracking.",
